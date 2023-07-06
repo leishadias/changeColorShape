@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+
+#shape {
+  background-color: pink;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
